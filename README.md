@@ -1,4 +1,6 @@
-# ZenGL/ModernGL compatibility with WebGL and Raspberry Pi
+# ModernGL/ZenGL GLES compatibility
+
+Compatibility with **WebGL** and **Raspberry Pi**.
 
 This repository contains a testbed for running Python with a GLES 3.0 (WebGL) or GLES 3.1 (Raspberry Pi) on desktop computers.<br>
 This project uses [angle](https://github.com/google/angle) to load GLES 3.0 with WebGL compatibilty or GLES 3.1 that actually runs Vulkan or DirectX under the hood.
