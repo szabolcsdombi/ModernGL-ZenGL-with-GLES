@@ -7,7 +7,7 @@ This project uses [angle](https://github.com/google/angle) to load GLES 3.0 with
 
 - Place `libGLESv2.dll` to the project root. (no need to build [angle](https://github.com/google/angle), you can find one in your installed chrome/vscode's folder) 
 
-- Build this project with `pip install -e .`
+- Build this project with `pip setup.py build_ext --inplace`
 
 - Run the test file `python test.py`
 
