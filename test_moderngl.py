@@ -10,7 +10,7 @@ print('Vendor: %(GL_VENDOR)s\nRenderer: %(GL_RENDERER)s\nVersion: %(GL_VERSION)s
 
 prog = ctx.program(
     vertex_shader='''
-        #version 310 es
+        #version 300 es
         precision highp float;
 
         vec2 vertex[3] = vec2[](
@@ -34,7 +34,7 @@ prog = ctx.program(
         }
     '''.strip(),
     fragment_shader='''
-        #version 310 es
+        #version 300 es
         precision highp float;
 
         in vec3 v_color;
